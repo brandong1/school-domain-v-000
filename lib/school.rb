@@ -3,7 +3,7 @@ class School
   end
   
   def roster(name)
-  roster = {}
+  roster[name] = {}
   roster[name] << grade
   end
 
