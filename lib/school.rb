@@ -2,7 +2,7 @@ class School
   def initialize(name)
   end
   
-  def roster
+  def roster(name)
   roster = {}
   roster[name] << grade
   end
